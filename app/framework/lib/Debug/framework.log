@@ -1,0 +1,17 @@
+﻿Build started 2014-05-30 03:03:15.
+     1>Project "C:\Users\Maciej\Desktop\PROJEKT\framework\framework.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "lib\Debug\framework.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         framework.vcxproj -> C:\Users\Maciej\Desktop\PROJEKT\framework\lib\frameworkD.lib
+       FinalizeBuildStatus:
+         Deleting file "lib\Debug\framework.unsuccessfulbuild".
+         Touching "lib\Debug\framework.lastbuildstate".
+     1>Done Building Project "C:\Users\Maciej\Desktop\PROJEKT\framework\framework.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24

@@ -1,0 +1,54 @@
+﻿Build started 2014-06-15 16:37:53.
+     1>Project "C:\Users\Maciej\Desktop\PROJEKT\Desert\Desert.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj\Debug\Desert\Desert.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\framework /I..\glsdk\glload\include /I..\glsdk\glimg\include /I..\glsdk\glm /I..\glsdk\glutil\include /I..\glsdk\glmesh\include /I..\glsdk\freeglut\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D TIXML_USE_STL /D FREEGLUT_STATIC /D WIN32 /D _LIB /D FREEGLUT_LIB_PRAGMAS=0 /D DEBUG /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\Desert\\" /Fd"obj\Debug\Desert\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp
+         Camera.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\DesertD.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\glsdk\glload\lib /LIBPATH:..\glsdk\glimg\lib /LIBPATH:..\glsdk\glutil\lib /LIBPATH:..\glsdk\glmesh\lib /LIBPATH:..\glsdk\freeglut\lib ..\framework\lib\frameworkD.lib glloadD.lib glimgD.lib glutilD.lib glmeshD.lib freeglutD.lib glu32.lib opengl32.lib gdi32.lib winmm.lib user32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"obj\Debug\Desert\DesertD.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Maciej\Desktop\PROJEKT\Desert\DesertD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\DesertD.lib" /MACHINE:X86 obj\Debug\Desert\DesertD.exe.embed.manifest.res
+         obj\Debug\Desert\Camera.obj
+         obj\Debug\Desert\Desert.obj
+         obj\Debug\Desert\Model.obj
+         obj\Debug\Desert\Objects.obj
+         obj\Debug\Desert\Shader.obj
+     1>frameworkD.lib(framework.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'frameworkD.lib(framework.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>frameworkD.lib(Mesh.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'frameworkD.lib(Mesh.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>glloadD.lib(gll_c.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glloadD.lib(gll_c.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>glloadD.lib(gll_gl_ext.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glloadD.lib(gll_gl_ext.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>glloadD.lib(gll_cpp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glloadD.lib(gll_cpp.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>glloadD.lib(wgll_ext.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glloadD.lib(wgll_ext.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>glutilD.lib(MatrixStack.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glutilD.lib(MatrixStack.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>glutilD.lib(Shader.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glutilD.lib(Shader.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_callbacks.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_callbacks.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_cursor.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_cursor.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_display.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_display.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_font.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_font.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_font_data.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_font_data.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_init.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_init.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_input_devices.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_input_devices.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_joystick.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_joystick.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_main.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_main.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_menu.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_menu.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_spaceball.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_spaceball.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_state.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_state.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_stroke_mono_roman.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_stroke_roman.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_stroke_roman.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_structure.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_structure.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+     1>freeglutD.lib(freeglut_window.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglutD.lib(freeglut_window.obj)' or at 'C:\Users\Maciej\Desktop\PROJEKT\Desert\vc100.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"obj\Debug\Desert\DesertD.exe.embed.manifest" /manifest obj\Debug\Desert\DesertD.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Desert.vcxproj -> C:\Users\Maciej\Desktop\PROJEKT\Desert\.\DesertD.exe
+       FinalizeBuildStatus:
+         Deleting file "obj\Debug\Desert\Desert.unsuccessfulbuild".
+         Touching "obj\Debug\Desert\Desert.lastbuildstate".
+     1>Done Building Project "C:\Users\Maciej\Desktop\PROJEKT\Desert\Desert.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.04

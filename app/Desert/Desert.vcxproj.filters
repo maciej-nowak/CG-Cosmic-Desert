@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Objects.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Desert.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Objects.h" />
+    <ClInclude Include="Shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\ball.vert">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\color.frag">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\object.vert">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\planete.vert">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\texture.frag">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\texture.vert">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{fd6dd57d-22b0-445d-9140-195ad2bb8d83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
